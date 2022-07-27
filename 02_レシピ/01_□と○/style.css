@@ -1,0 +1,12 @@
+.squre {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.round {
+  border-radius: 50px;
+}
+.transition {
+  transition: all ls;
+}
