@@ -62,24 +62,5 @@ const reloadQuiz = function () {
   choice3.textContent = quiz.choices[2].text
 }
 
-// choiceNumber番目の選択肢を選択
-const choose = function (choiceNumber) {
-  // フィードバックを表示
-  feedback.textContent = quiz.choices[choiceNumber].feedback
-}
-
-choice1.onclick = function () {
-  // 0 番目の選択肢を選択
-  choose(0)
-}
-choice2.onclick = function () {
-  // 1 番目の選択肢を選択
-  choose(1)
-}
-choice3.onclick = function () {
-  // 2 番目の選択肢を選択
-  choose(2)
-}
-
 // reloadQuiz関数 を実行して、クイズを画面に表示する
 reloadQuiz()
